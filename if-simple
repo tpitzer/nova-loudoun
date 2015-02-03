@@ -1,0 +1,27 @@
+/* Pseudo Code Example:  Simple If Statement
+ * Requirements:  Write a program that asks user for 3 test scores and print average
+ * If test score is greater than 95, then print congrats message for the user
+ */
+ 
+// variable declarations
+real test1 = 0.0
+real test2 = 0.0
+real test3 = 0.0
+real average = 0.0
+
+// now ask the user for the test scores
+output “Enter the score for test #1.”
+get test1
+output “Enter the score for test #2.”
+get test2
+output “Enter the score for test #3.”
+get test3
+
+// now calculate the average score
+average = (test1 + test2 + test3) / 3
+
+// now print out stuff
+output “The average is “ + average
+if (average > 95)
+	output “Congratulations!  Great average!”
+endif
